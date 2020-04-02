@@ -25,7 +25,7 @@ class Solution {
             if(board[0][j] == 'O') dfs(board, 0, j);
             if(board[rows-1][columns-j-1] == 'O') dfs(board, rows-1, columns-j-1);
         }
-        
+       
         /* Replace */
         for(int i = 0; i <  rows; i++){
             for(int j = 0; j < columns; j++){
